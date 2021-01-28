@@ -25,24 +25,36 @@ public class ExArray01 {
 //		int[] score = new int[5]; // 길이가 5인 1차 배열
 		// R : list 목록 보기
 		
-		list(score); // 전달받을 배열의 요소를 출력 , 전역변수필드로 score를 쓰기위해서 전역필드에 static으로 선언 
-		
-		boolean state = add(score,30); // 목록에 넣기  (배열을전달하고,저장하려는값)
-		//boolean 데이터를 추가했나 못했나(꽉찬상태일수도있어서)
-		add(score,20);
-		list(score); // 실제 저장된 값을 보여준다.
-		// 수정 하려면 ? 선택 할 수 있어야 한다. 변경할 값이 뭐냐  
-		update(1,100); // 요소번호, 값 
-		// 배열 자체는 쉽다.. 기능의 목적 명확히 하자 
+//		list(score); // 전달받을 배열의 요소를 출력 , 전역변수필드로 score를 쓰기위해서 전역필드에 static으로 선언 
+//		
+//		boolean state = add(score,30); // 목록에 넣기  (배열을전달하고,저장하려는값)
+//		//boolean 데이터를 추가했나 못했나(꽉찬상태일수도있어서)
+//		add(score,20);
+//		list(score); // 실제 저장된 값을 보여준다.
+//		// 수정 하려면 ? 선택 할 수 있어야 한다. 변경할 값이 뭐냐  
+//		update(1,100); // 요소번호, 값 
+//		// 배열 자체는 쉽다.. 기능의 목적 명확히 하자 
+//		list(score);
+//		
+//		add(score,10);
+//		add(score,20);
+//		add(score,30);
+//		add(score,40);
+//		add(score,50);
+//		
+//		delete(2); // 삭제할 요소의 번호를 전달 
+//		list(score);
+//		add(score,100);
+//		list(score);
+			
 		list(score);
-		
 		add(score,10);
 		add(score,20);
 		add(score,30);
 		add(score,40);
 		add(score,50);
-		
-		delete(2); // 삭제할 요소의 번호를 전달 
+		list(score);
+		delete(2);
 		list(score);
 		add(score,100);
 		list(score);

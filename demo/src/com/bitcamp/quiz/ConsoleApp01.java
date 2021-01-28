@@ -24,8 +24,7 @@ public class ConsoleApp01 {
 				number++;
 			} else {
 				// 기호
-				symbol++;
-				
+				symbol++;		
 			}
 		}
 		System.out.println("영문자 개수는 : " + alpha);
