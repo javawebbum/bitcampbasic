@@ -41,16 +41,13 @@ public class ExOperator02 {
 		double ran = Math.random(); // double 반환을 정수로 바꿔야한다. 난수 0.xxx ~ 1.xxx 사이가 나와서 자리올림을해줘야한다. 
 		int number = (int)(ran*1000); // ran의 값을 먼저 자리올림을 해주고 int로 짤라줘야한다. ( 순서의 중요성  )
 		System.out.println(number);
-	
 //		double lf = 10.789;
 //		System.out.println(lf); // 10.789
 //		// 자동 형변환
 //		int n = (int)lf; // 실수-정수:
 //		System.out.println(n); // 10 소수이하부분이 없어진다.
-//		System.out.println((double)n); // 10.0 
-		
+//		System.out.println((double)n); // 10.0 	
 	}
-
 	public static void main01(String[] args) {
 		// 임의 정수 3개의 총합 , 평균을 구하세요
 		Random random = new Random(); // Random을 만들어야지 쓸수있다. 임의정수 = random를 쓴다.  
